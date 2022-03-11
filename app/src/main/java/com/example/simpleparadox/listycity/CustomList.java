@@ -54,6 +54,21 @@ public class CustomList extends ArrayAdapter<City> {
 
     public void addCity(City city) {
         cities.add(city);
-        return;
+    }
+
+    public boolean hasCity(City city) {
+//        if (cities.contains(city)) {
+//            return true;
+//        }
+        return false;
+    }
+
+    public void delete(City city) {
+//        cities.remove(city);
+    }
+
+    public int countCities() {
+//        return cities.size();
+        return 0;
     }
 }
